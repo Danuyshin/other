@@ -1,0 +1,102 @@
+body{
+    background-color:#333333 ;
+    font-family: 'Open Sans Condensed';
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.85), rgb(51, 51, 51)), url('img/bg.png') no-repeat center top / cover;
+
+}
+
+.text{
+    margin-top: 16;
+height:23;
+background: #444444;
+    border: 1px solid #616161;
+box-sizing: border-box;
+color: #FFFFFF;
+margin-left:5;
+}
+.type{
+    margin-top: 16;
+    height:23;
+    background: #444444;
+    border: 1px solid #616161;
+box-sizing: border-box;
+color: #FFFFFF;
+margin-left:156;
+width:169;
+}
+.time{
+    background: #444444;
+    border: 1px solid #616161;
+box-sizing: border-box;
+color: #FFFFFF;
+    margin-top: 16;
+    height:23;
+    margin-left:79;
+    width:169;
+}
+.card{
+    background: #444444;
+    border: 1px solid #616161;
+box-sizing: border-box;
+color: #FFFFFF;
+    margin-top: 16;
+    height:23;
+    margin-left:153;
+    width:169
+}
+.out{
+    margin-top: 16;
+    height:23;
+    background: #444444;
+    border: 1px solid #616161;
+box-sizing: border-box;
+color: #FFFFFF;
+margin-left:272;
+width:169;
+}
+.text1{
+    
+    font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.05em;
+
+
+/* white */
+
+color: #FFFFFF;
+}
+.calc{
+    width: 100px;
+height: 40px;
+    background:#D1A954;
+}
+.clear{
+    width: 100px;
+height: 40px;
+    background:#D1A954;
+}
+.text2{
+    color: #FFFFFF;
+}
+
+.title{
+    font-size: 64px;
+line-height: 87px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+/* white */
+
+color: #FFFFFF;
+    text-align: center;
+}
+.all{
+    
+    text-align: center;
+    
+}
+.back{
+    width: 150px;
+    height: 40px;
+        background:#D1A954;
+}

@@ -1,0 +1,57 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калькулятор</title>
+  <link rel="stylesheet" href="css/12.css">
+</head>
+<body>
+  <div class="all">
+    <p class="title">Калькулятор</p>
+  <div class="people">
+    <p class="text1">Введите количество приобретаемых мест:<input type="number" class="text"></p>
+  
+  </div>
+  <div class="people">
+    <p class="text1">Выберите тип билета:<select name="" id="" class="type">
+    <option value="none"></option>
+    <option value="kid">Детский</option>
+    <option value="adult">Взрослый</option>
+    <option value="student">Студенческий</option>
+  </select></p>
+  
+  </div>
+  <div class="people">
+    <p class="text1">Выберите время представления:
+    <select name="" id="" class="time">
+    <option value="none"></option>
+<option value="morning">9:00-11:00</option>
+<option value="day">12:00-15:00</option>
+<option value="day">16:00-18:30</option>
+<option value="evening">19:30-22:00</option>
+<option value="night">23:00-01:30</option>
+<option value="night">02:30-04:00</option>
+  </select></p>
+  </div>
+  <div class="people">
+    <p class="text1">Выберите тип оплаты:
+  <select name="" id="" class="card">
+    <option value="none"></option>
+    <option value="card">Банковская карта</option>
+    <option value="nal">Наличные</option>
+  </select></p>
+</div>
+<div class="buttons">
+<button class="calc"><div class="text2">Рассчитать</div></button>
+<button class="clear"><div class="text2">Oчистить</div></button>
+</div>
+<div class="people">
+  <p class="text1">Итого:
+<input type="text" class="out" Readonly >
+</div></p>
+</div>
+<button class="back" onclick="window.location.href = 'main.html'"><div class="text2">Вернуться на главную</div></button>
+<script src="js/12.js"></script>
+</body>
+</html>
